@@ -27,7 +27,7 @@
 
 /*
  
- commit dans la branche2 2.2
+ commit dans la branch 2
  
  */
 
