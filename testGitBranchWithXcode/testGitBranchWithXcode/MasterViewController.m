@@ -17,7 +17,7 @@
 /*
  
  commentai
- re dans master 3.3
+ re dans Branch2 3.3
  
  */
 
@@ -27,7 +27,7 @@
 
 /*
  
- commit dans la branch 2
+ commit dans la branch 2.0
  
  */
 
