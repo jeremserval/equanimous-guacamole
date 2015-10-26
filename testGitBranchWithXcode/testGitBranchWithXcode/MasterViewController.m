@@ -32,7 +32,23 @@
  */
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    
+    
+    NSUserDefaults *defaults = [[NSUserDefaults alloc]  initWithSuiteName:@"group.com.JeremPerso.testGitBranchWithXcode.watchkitapp.watchkitextension.shareDefaults"];
+    
+    
+    NSString *value = [defaults objectForKey:@"connectWithWatch"];
+    
+    NSLog(@"value from connectWithWatch :%@", value);
+
+    
+    [defaults setObject:@{@"test":@"textFromPhone and synchronize"}  forKey:@"connectWithWatch"];
+    [defaults synchronize];
+    
+    NSLog(@"defaults :%@", [defaults description]);
+
     // Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 

@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C5C974F1BDE3D3D00BB609D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C974D1BDE3D3D00BB609D /* Interface.storyboard */; };
+		4C5C97511BDE3D3D00BB609D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C97501BDE3D3D00BB609D /* Assets.xcassets */; };
+		4C5C97581BDE3D3E00BB609D /* watchKit_OS2 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4C5C97571BDE3D3E00BB609D /* watchKit_OS2 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4C5C97601BDE3D3E00BB609D /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C975F1BDE3D3E00BB609D /* InterfaceController.m */; };
+		4C5C97631BDE3D3E00BB609D /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97621BDE3D3E00BB609D /* ExtensionDelegate.m */; };
+		4C5C97661BDE3D3E00BB609D /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97651BDE3D3E00BB609D /* NotificationController.m */; };
+		4C5C97681BDE3D3E00BB609D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C97671BDE3D3E00BB609D /* Assets.xcassets */; };
+		4C5C976C1BDE3D3E00BB609D /* watchKit_OS2.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4C5C974B1BDE3D3D00BB609D /* watchKit_OS2.app */; };
+		4C5C97951BDE3DD600BB609D /* AddTagsIconesInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97761BDE3DD600BB609D /* AddTagsIconesInterfaceController.m */; };
+		4C5C97961BDE3DD600BB609D /* DetailsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97781BDE3DD600BB609D /* DetailsInterfaceController.m */; };
+		4C5C97971BDE3DD600BB609D /* DetailViewInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C977A1BDE3DD600BB609D /* DetailViewInterfaceController.m */; };
+		4C5C97981BDE3DD600BB609D /* doubleButtonTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C977C1BDE3DD600BB609D /* doubleButtonTag.m */; };
+		4C5C97991BDE3DD600BB609D /* doubleLabelRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C977E1BDE3DD600BB609D /* doubleLabelRow.m */; };
+		4C5C979A1BDE3DD600BB609D /* listePlacesInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97801BDE3DD600BB609D /* listePlacesInterfaceController.m */; };
+		4C5C979B1BDE3DD600BB609D /* listNearPlaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97821BDE3DD600BB609D /* listNearPlaces.m */; };
+		4C5C979C1BDE3DD600BB609D /* listNearPlacesInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97841BDE3DD600BB609D /* listNearPlacesInterfaceController.m */; };
+		4C5C979D1BDE3DD600BB609D /* listPlaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97861BDE3DD600BB609D /* listPlaces.m */; };
+		4C5C979E1BDE3DD600BB609D /* PagedInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97881BDE3DD600BB609D /* PagedInterfaceController.m */; };
+		4C5C979F1BDE3DD600BB609D /* setTagAndIconeInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C978A1BDE3DD600BB609D /* setTagAndIconeInterfaceController.m */; };
+		4C5C97A01BDE3DD600BB609D /* singleButtonTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C978C1BDE3DD600BB609D /* singleButtonTag.m */; };
+		4C5C97A11BDE3DD600BB609D /* singleLabelRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C978E1BDE3DD600BB609D /* singleLabelRow.m */; };
+		4C5C97A21BDE3DD600BB609D /* StartInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97901BDE3DD600BB609D /* StartInterfaceController.m */; };
+		4C5C97A31BDE3DD600BB609D /* tripleButtonTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97921BDE3DD600BB609D /* tripleButtonTag.m */; };
+		4C5C97A41BDE3DD600BB609D /* tripleLabelRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C97941BDE3DD600BB609D /* tripleLabelRow.m */; };
+		4C5C97A81BDE47C700BB609D /* testGitBranchWithXcode.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C97A71BDE47C700BB609D /* testGitBranchWithXcode.entitlements */; };
+		4CB102861BDE51FE00E3A261 /* watchKit_OS2 Extension.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 4CB102851BDE51FE00E3A261 /* watchKit_OS2 Extension.entitlements */; };
+		4CB102881BDE564D00E3A261 /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CB102871BDE564D00E3A261 /* Settings-Watch.bundle */; };
+		4CB102891BDE576A00E3A261 /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CB102871BDE564D00E3A261 /* Settings-Watch.bundle */; };
+		4CB1028A1BDE576B00E3A261 /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CB102871BDE564D00E3A261 /* Settings-Watch.bundle */; };
+		4CB1028D1BDE69CE00E3A261 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1028C1BDE69CE00E3A261 /* MainViewController.m */; };
 		4CC000CB1BD7E42900B09232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC000CA1BD7E42900B09232 /* main.m */; };
 		4CC000CE1BD7E42900B09232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC000CD1BD7E42900B09232 /* AppDelegate.m */; };
 		4CC000D11BD7E42900B09232 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC000D01BD7E42900B09232 /* MasterViewController.m */; };
@@ -19,6 +49,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4C5C97591BDE3D3E00BB609D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CC000BE1BD7E42900B09232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5C97561BDE3D3E00BB609D;
+			remoteInfo = "watchKit_OS2 Extension";
+		};
+		4C5C976A1BDE3D3E00BB609D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CC000BE1BD7E42900B09232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5C974A1BDE3D3D00BB609D;
+			remoteInfo = watchKit_OS2;
+		};
 		4CC000E31BD7E42900B09232 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4CC000BE1BD7E42900B09232 /* Project object */;
@@ -35,7 +79,84 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4C5C97721BDE3D3E00BB609D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4C5C97581BDE3D3E00BB609D /* watchKit_OS2 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5C97741BDE3D3E00BB609D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4C5C976C1BDE3D3E00BB609D /* watchKit_OS2.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4C5C974B1BDE3D3D00BB609D /* watchKit_OS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchKit_OS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5C974E1BDE3D3D00BB609D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4C5C97501BDE3D3D00BB609D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C5C97521BDE3D3D00BB609D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5C97571BDE3D3E00BB609D /* watchKit_OS2 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchKit_OS2 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5C975D1BDE3D3E00BB609D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4C5C975E1BDE3D3E00BB609D /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		4C5C975F1BDE3D3E00BB609D /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		4C5C97611BDE3D3E00BB609D /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		4C5C97621BDE3D3E00BB609D /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		4C5C97641BDE3D3E00BB609D /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		4C5C97651BDE3D3E00BB609D /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		4C5C97671BDE3D3E00BB609D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C5C97691BDE3D3E00BB609D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5C97751BDE3DD600BB609D /* AddTagsIconesInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTagsIconesInterfaceController.h; sourceTree = "<group>"; };
+		4C5C97761BDE3DD600BB609D /* AddTagsIconesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTagsIconesInterfaceController.m; sourceTree = "<group>"; };
+		4C5C97771BDE3DD600BB609D /* DetailsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsInterfaceController.h; sourceTree = "<group>"; };
+		4C5C97781BDE3DD600BB609D /* DetailsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsInterfaceController.m; sourceTree = "<group>"; };
+		4C5C97791BDE3DD600BB609D /* DetailViewInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewInterfaceController.h; sourceTree = "<group>"; };
+		4C5C977A1BDE3DD600BB609D /* DetailViewInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewInterfaceController.m; sourceTree = "<group>"; };
+		4C5C977B1BDE3DD600BB609D /* doubleButtonTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doubleButtonTag.h; sourceTree = "<group>"; };
+		4C5C977C1BDE3DD600BB609D /* doubleButtonTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doubleButtonTag.m; sourceTree = "<group>"; };
+		4C5C977D1BDE3DD600BB609D /* doubleLabelRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = doubleLabelRow.h; sourceTree = "<group>"; };
+		4C5C977E1BDE3DD600BB609D /* doubleLabelRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = doubleLabelRow.m; sourceTree = "<group>"; };
+		4C5C977F1BDE3DD600BB609D /* listePlacesInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listePlacesInterfaceController.h; sourceTree = "<group>"; };
+		4C5C97801BDE3DD600BB609D /* listePlacesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listePlacesInterfaceController.m; sourceTree = "<group>"; };
+		4C5C97811BDE3DD600BB609D /* listNearPlaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listNearPlaces.h; sourceTree = "<group>"; };
+		4C5C97821BDE3DD600BB609D /* listNearPlaces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listNearPlaces.m; sourceTree = "<group>"; };
+		4C5C97831BDE3DD600BB609D /* listNearPlacesInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listNearPlacesInterfaceController.h; sourceTree = "<group>"; };
+		4C5C97841BDE3DD600BB609D /* listNearPlacesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listNearPlacesInterfaceController.m; sourceTree = "<group>"; };
+		4C5C97851BDE3DD600BB609D /* listPlaces.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listPlaces.h; sourceTree = "<group>"; };
+		4C5C97861BDE3DD600BB609D /* listPlaces.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listPlaces.m; sourceTree = "<group>"; };
+		4C5C97871BDE3DD600BB609D /* PagedInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagedInterfaceController.h; sourceTree = "<group>"; };
+		4C5C97881BDE3DD600BB609D /* PagedInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagedInterfaceController.m; sourceTree = "<group>"; };
+		4C5C97891BDE3DD600BB609D /* setTagAndIconeInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setTagAndIconeInterfaceController.h; sourceTree = "<group>"; };
+		4C5C978A1BDE3DD600BB609D /* setTagAndIconeInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setTagAndIconeInterfaceController.m; sourceTree = "<group>"; };
+		4C5C978B1BDE3DD600BB609D /* singleButtonTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleButtonTag.h; sourceTree = "<group>"; };
+		4C5C978C1BDE3DD600BB609D /* singleButtonTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = singleButtonTag.m; sourceTree = "<group>"; };
+		4C5C978D1BDE3DD600BB609D /* singleLabelRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleLabelRow.h; sourceTree = "<group>"; };
+		4C5C978E1BDE3DD600BB609D /* singleLabelRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = singleLabelRow.m; sourceTree = "<group>"; };
+		4C5C978F1BDE3DD600BB609D /* StartInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartInterfaceController.h; sourceTree = "<group>"; };
+		4C5C97901BDE3DD600BB609D /* StartInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartInterfaceController.m; sourceTree = "<group>"; };
+		4C5C97911BDE3DD600BB609D /* tripleButtonTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tripleButtonTag.h; sourceTree = "<group>"; };
+		4C5C97921BDE3DD600BB609D /* tripleButtonTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tripleButtonTag.m; sourceTree = "<group>"; };
+		4C5C97931BDE3DD600BB609D /* tripleLabelRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tripleLabelRow.h; sourceTree = "<group>"; };
+		4C5C97941BDE3DD600BB609D /* tripleLabelRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tripleLabelRow.m; sourceTree = "<group>"; };
+		4C5C97A51BDE3F7300BB609D /* watchKit_OS2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = watchKit_OS2.entitlements; path = "watchKit_OS2 Extension/watchKit_OS2.entitlements"; sourceTree = SOURCE_ROOT; };
+		4C5C97A71BDE47C700BB609D /* testGitBranchWithXcode.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testGitBranchWithXcode.entitlements; sourceTree = "<group>"; };
+		4CB102851BDE51FE00E3A261 /* watchKit_OS2 Extension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "watchKit_OS2 Extension.entitlements"; sourceTree = "<group>"; };
+		4CB102871BDE564D00E3A261 /* Settings-Watch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "Settings-Watch.bundle"; sourceTree = "<group>"; };
+		4CB1028B1BDE69CE00E3A261 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4CB1028C1BDE69CE00E3A261 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		4CC000C61BD7E42900B09232 /* testGitBranchWithXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGitBranchWithXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC000CA1BD7E42900B09232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CC000CC1BD7E42900B09232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +178,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4C5C97541BDE3D3E00BB609D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4CC000C31BD7E42900B09232 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,12 +209,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C5C974C1BDE3D3D00BB609D /* watchKit_OS2 */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C97A51BDE3F7300BB609D /* watchKit_OS2.entitlements */,
+				4C5C974D1BDE3D3D00BB609D /* Interface.storyboard */,
+				4C5C97501BDE3D3D00BB609D /* Assets.xcassets */,
+				4C5C97521BDE3D3D00BB609D /* Info.plist */,
+			);
+			path = watchKit_OS2;
+			sourceTree = "<group>";
+		};
+		4C5C975B1BDE3D3E00BB609D /* watchKit_OS2 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C97751BDE3DD600BB609D /* AddTagsIconesInterfaceController.h */,
+				4C5C97761BDE3DD600BB609D /* AddTagsIconesInterfaceController.m */,
+				4C5C97771BDE3DD600BB609D /* DetailsInterfaceController.h */,
+				4C5C97781BDE3DD600BB609D /* DetailsInterfaceController.m */,
+				4C5C97791BDE3DD600BB609D /* DetailViewInterfaceController.h */,
+				4C5C977A1BDE3DD600BB609D /* DetailViewInterfaceController.m */,
+				4C5C97A61BDE40AF00BB609D /* cellTableView */,
+				4C5C977F1BDE3DD600BB609D /* listePlacesInterfaceController.h */,
+				4C5C97801BDE3DD600BB609D /* listePlacesInterfaceController.m */,
+				4C5C97811BDE3DD600BB609D /* listNearPlaces.h */,
+				4C5C97821BDE3DD600BB609D /* listNearPlaces.m */,
+				4C5C97831BDE3DD600BB609D /* listNearPlacesInterfaceController.h */,
+				4C5C97841BDE3DD600BB609D /* listNearPlacesInterfaceController.m */,
+				4C5C97851BDE3DD600BB609D /* listPlaces.h */,
+				4C5C97861BDE3DD600BB609D /* listPlaces.m */,
+				4C5C97871BDE3DD600BB609D /* PagedInterfaceController.h */,
+				4C5C97881BDE3DD600BB609D /* PagedInterfaceController.m */,
+				4C5C97891BDE3DD600BB609D /* setTagAndIconeInterfaceController.h */,
+				4C5C978A1BDE3DD600BB609D /* setTagAndIconeInterfaceController.m */,
+				4C5C978F1BDE3DD600BB609D /* StartInterfaceController.h */,
+				4C5C97901BDE3DD600BB609D /* StartInterfaceController.m */,
+				4C5C975E1BDE3D3E00BB609D /* InterfaceController.h */,
+				4C5C975F1BDE3D3E00BB609D /* InterfaceController.m */,
+				4C5C97611BDE3D3E00BB609D /* ExtensionDelegate.h */,
+				4C5C97621BDE3D3E00BB609D /* ExtensionDelegate.m */,
+				4C5C97641BDE3D3E00BB609D /* NotificationController.h */,
+				4C5C97651BDE3D3E00BB609D /* NotificationController.m */,
+				4C5C97671BDE3D3E00BB609D /* Assets.xcassets */,
+				4C5C97691BDE3D3E00BB609D /* Info.plist */,
+				4C5C975C1BDE3D3E00BB609D /* Supporting Files */,
+				4CB102851BDE51FE00E3A261 /* watchKit_OS2 Extension.entitlements */,
+			);
+			path = "watchKit_OS2 Extension";
+			sourceTree = "<group>";
+		};
+		4C5C975C1BDE3D3E00BB609D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C975D1BDE3D3E00BB609D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C5C97A61BDE40AF00BB609D /* cellTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C977B1BDE3DD600BB609D /* doubleButtonTag.h */,
+				4C5C977C1BDE3DD600BB609D /* doubleButtonTag.m */,
+				4C5C977D1BDE3DD600BB609D /* doubleLabelRow.h */,
+				4C5C977E1BDE3DD600BB609D /* doubleLabelRow.m */,
+				4C5C978B1BDE3DD600BB609D /* singleButtonTag.h */,
+				4C5C978C1BDE3DD600BB609D /* singleButtonTag.m */,
+				4C5C978D1BDE3DD600BB609D /* singleLabelRow.h */,
+				4C5C978E1BDE3DD600BB609D /* singleLabelRow.m */,
+				4C5C97911BDE3DD600BB609D /* tripleButtonTag.h */,
+				4C5C97921BDE3DD600BB609D /* tripleButtonTag.m */,
+				4C5C97931BDE3DD600BB609D /* tripleLabelRow.h */,
+				4C5C97941BDE3DD600BB609D /* tripleLabelRow.m */,
+			);
+			name = cellTableView;
+			sourceTree = "<group>";
+		};
 		4CC000BD1BD7E42900B09232 = {
 			isa = PBXGroup;
 			children = (
 				4CC000C81BD7E42900B09232 /* testGitBranchWithXcode */,
 				4CC000E51BD7E42900B09232 /* testGitBranchWithXcodeTests */,
 				4CC000F01BD7E42900B09232 /* testGitBranchWithXcodeUITests */,
+				4C5C974C1BDE3D3D00BB609D /* watchKit_OS2 */,
+				4C5C975B1BDE3D3E00BB609D /* watchKit_OS2 Extension */,
 				4CC000C71BD7E42900B09232 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +303,8 @@
 				4CC000C61BD7E42900B09232 /* testGitBranchWithXcode.app */,
 				4CC000E21BD7E42900B09232 /* testGitBranchWithXcodeTests.xctest */,
 				4CC000ED1BD7E42900B09232 /* testGitBranchWithXcodeUITests.xctest */,
+				4C5C974B1BDE3D3D00BB609D /* watchKit_OS2.app */,
+				4C5C97571BDE3D3E00BB609D /* watchKit_OS2 Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +312,7 @@
 		4CC000C81BD7E42900B09232 /* testGitBranchWithXcode */ = {
 			isa = PBXGroup;
 			children = (
+				4C5C97A71BDE47C700BB609D /* testGitBranchWithXcode.entitlements */,
 				4CC000CC1BD7E42900B09232 /* AppDelegate.h */,
 				4CC000CD1BD7E42900B09232 /* AppDelegate.m */,
 				4CC000CF1BD7E42900B09232 /* MasterViewController.h */,
@@ -115,6 +324,9 @@
 				4CC000DA1BD7E42900B09232 /* LaunchScreen.storyboard */,
 				4CC000DD1BD7E42900B09232 /* Info.plist */,
 				4CC000C91BD7E42900B09232 /* Supporting Files */,
+				4CB102871BDE564D00E3A261 /* Settings-Watch.bundle */,
+				4CB1028B1BDE69CE00E3A261 /* MainViewController.h */,
+				4CB1028C1BDE69CE00E3A261 /* MainViewController.m */,
 			);
 			path = testGitBranchWithXcode;
 			sourceTree = "<group>";
@@ -148,6 +360,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4C5C974A1BDE3D3D00BB609D /* watchKit_OS2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5C97731BDE3D3E00BB609D /* Build configuration list for PBXNativeTarget "watchKit_OS2" */;
+			buildPhases = (
+				4C5C97491BDE3D3D00BB609D /* Resources */,
+				4C5C97721BDE3D3E00BB609D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5C975A1BDE3D3E00BB609D /* PBXTargetDependency */,
+			);
+			name = watchKit_OS2;
+			productName = watchKit_OS2;
+			productReference = 4C5C974B1BDE3D3D00BB609D /* watchKit_OS2.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4C5C97561BDE3D3E00BB609D /* watchKit_OS2 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5C97711BDE3D3E00BB609D /* Build configuration list for PBXNativeTarget "watchKit_OS2 Extension" */;
+			buildPhases = (
+				4C5C97531BDE3D3E00BB609D /* Sources */,
+				4C5C97541BDE3D3E00BB609D /* Frameworks */,
+				4C5C97551BDE3D3E00BB609D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchKit_OS2 Extension";
+			productName = "watchKit_OS2 Extension";
+			productReference = 4C5C97571BDE3D3E00BB609D /* watchKit_OS2 Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		4CC000C51BD7E42900B09232 /* testGitBranchWithXcode */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CC000F61BD7E42900B09232 /* Build configuration list for PBXNativeTarget "testGitBranchWithXcode" */;
@@ -155,10 +401,12 @@
 				4CC000C21BD7E42900B09232 /* Sources */,
 				4CC000C31BD7E42900B09232 /* Frameworks */,
 				4CC000C41BD7E42900B09232 /* Resources */,
+				4C5C97741BDE3D3E00BB609D /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4C5C976B1BDE3D3E00BB609D /* PBXTargetDependency */,
 			);
 			name = testGitBranchWithXcode;
 			productName = testGitBranchWithXcode;
@@ -210,8 +458,32 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Jeremie serval";
 				TargetAttributes = {
+					4C5C974A1BDE3D3D00BB609D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = DF957566X6;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4C5C97561BDE3D3E00BB609D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = DF957566X6;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					4CC000C51BD7E42900B09232 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = DF957566X6;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					4CC000E11BD7E42900B09232 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -239,17 +511,41 @@
 				4CC000C51BD7E42900B09232 /* testGitBranchWithXcode */,
 				4CC000E11BD7E42900B09232 /* testGitBranchWithXcodeTests */,
 				4CC000EC1BD7E42900B09232 /* testGitBranchWithXcodeUITests */,
+				4C5C974A1BDE3D3D00BB609D /* watchKit_OS2 */,
+				4C5C97561BDE3D3E00BB609D /* watchKit_OS2 Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4C5C97491BDE3D3D00BB609D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5C97511BDE3D3D00BB609D /* Assets.xcassets in Resources */,
+				4C5C974F1BDE3D3D00BB609D /* Interface.storyboard in Resources */,
+				4CB102891BDE576A00E3A261 /* Settings-Watch.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5C97551BDE3D3E00BB609D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5C97681BDE3D3E00BB609D /* Assets.xcassets in Resources */,
+				4CB102861BDE51FE00E3A261 /* watchKit_OS2 Extension.entitlements in Resources */,
+				4CB1028A1BDE576B00E3A261 /* Settings-Watch.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4CC000C41BD7E42900B09232 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4CC000DC1BD7E42900B09232 /* LaunchScreen.storyboard in Resources */,
+				4CB102881BDE564D00E3A261 /* Settings-Watch.bundle in Resources */,
 				4CC000D91BD7E42900B09232 /* Assets.xcassets in Resources */,
+				4C5C97A81BDE47C700BB609D /* testGitBranchWithXcode.entitlements in Resources */,
 				4CC000D71BD7E42900B09232 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +567,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4C5C97531BDE3D3E00BB609D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5C97961BDE3DD600BB609D /* DetailsInterfaceController.m in Sources */,
+				4C5C97971BDE3DD600BB609D /* DetailViewInterfaceController.m in Sources */,
+				4C5C979E1BDE3DD600BB609D /* PagedInterfaceController.m in Sources */,
+				4C5C97981BDE3DD600BB609D /* doubleButtonTag.m in Sources */,
+				4C5C97A01BDE3DD600BB609D /* singleButtonTag.m in Sources */,
+				4C5C97A11BDE3DD600BB609D /* singleLabelRow.m in Sources */,
+				4C5C97631BDE3D3E00BB609D /* ExtensionDelegate.m in Sources */,
+				4C5C97601BDE3D3E00BB609D /* InterfaceController.m in Sources */,
+				4C5C97A41BDE3DD600BB609D /* tripleLabelRow.m in Sources */,
+				4C5C97A21BDE3DD600BB609D /* StartInterfaceController.m in Sources */,
+				4C5C979B1BDE3DD600BB609D /* listNearPlaces.m in Sources */,
+				4C5C97661BDE3D3E00BB609D /* NotificationController.m in Sources */,
+				4C5C979F1BDE3DD600BB609D /* setTagAndIconeInterfaceController.m in Sources */,
+				4C5C97A31BDE3DD600BB609D /* tripleButtonTag.m in Sources */,
+				4C5C979D1BDE3DD600BB609D /* listPlaces.m in Sources */,
+				4C5C979A1BDE3DD600BB609D /* listePlacesInterfaceController.m in Sources */,
+				4C5C97991BDE3DD600BB609D /* doubleLabelRow.m in Sources */,
+				4C5C97951BDE3DD600BB609D /* AddTagsIconesInterfaceController.m in Sources */,
+				4C5C979C1BDE3DD600BB609D /* listNearPlacesInterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4CC000C21BD7E42900B09232 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +600,7 @@
 				4CC000CE1BD7E42900B09232 /* AppDelegate.m in Sources */,
 				4CC000D11BD7E42900B09232 /* MasterViewController.m in Sources */,
 				4CC000CB1BD7E42900B09232 /* main.m in Sources */,
+				4CB1028D1BDE69CE00E3A261 /* MainViewController.m in Sources */,
 				4CC000D41BD7E42900B09232 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +624,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4C5C975A1BDE3D3E00BB609D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5C97561BDE3D3E00BB609D /* watchKit_OS2 Extension */;
+			targetProxy = 4C5C97591BDE3D3E00BB609D /* PBXContainerItemProxy */;
+		};
+		4C5C976B1BDE3D3E00BB609D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5C974A1BDE3D3D00BB609D /* watchKit_OS2 */;
+			targetProxy = 4C5C976A1BDE3D3E00BB609D /* PBXContainerItemProxy */;
+		};
 		4CC000E41BD7E42900B09232 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4CC000C51BD7E42900B09232 /* testGitBranchWithXcode */;
@@ -314,6 +647,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4C5C974D1BDE3D3D00BB609D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5C974E1BDE3D3D00BB609D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		4CC000D51BD7E42900B09232 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -333,6 +674,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4C5C976D1BDE3D3E00BB609D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "watchKit_OS2 Extension/watchKit_OS2.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = watchKit_OS2_Extension;
+				INFOPLIST_FILE = watchKit_OS2/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeremPerso.testGitBranchWithXcode.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4C5C976E1BDE3D3E00BB609D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "watchKit_OS2 Extension/watchKit_OS2.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				IBSC_MODULE = watchKit_OS2_Extension;
+				INFOPLIST_FILE = watchKit_OS2/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeremPerso.testGitBranchWithXcode.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		4C5C976F1BDE3D3E00BB609D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "watchKit_OS2 Extension/watchKit_OS2 Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "watchKit_OS2 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeremPerso.testGitBranchWithXcode.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4C5C97701BDE3D3E00BB609D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "watchKit_OS2 Extension/watchKit_OS2 Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "watchKit_OS2 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JeremPerso.testGitBranchWithXcode.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		4CC000F41BD7E42900B09232 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,6 +834,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = testGitBranchWithXcode/testGitBranchWithXcode.entitlements;
 				INFOPLIST_FILE = testGitBranchWithXcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JeremPerso.testGitBranchWithXcode;
@@ -430,6 +846,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = testGitBranchWithXcode/testGitBranchWithXcode.entitlements;
 				INFOPLIST_FILE = testGitBranchWithXcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JeremPerso.testGitBranchWithXcode;
@@ -488,6 +905,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4C5C97711BDE3D3E00BB609D /* Build configuration list for PBXNativeTarget "watchKit_OS2 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5C976F1BDE3D3E00BB609D /* Debug */,
+				4C5C97701BDE3D3E00BB609D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5C97731BDE3D3E00BB609D /* Build configuration list for PBXNativeTarget "watchKit_OS2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5C976D1BDE3D3E00BB609D /* Debug */,
+				4C5C976E1BDE3D3E00BB609D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4CC000C11BD7E42900B09232 /* Build configuration list for PBXProject "testGitBranchWithXcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -504,6 +939,7 @@
 				4CC000F81BD7E42900B09232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CC000F91BD7E42900B09232 /* Build configuration list for PBXNativeTarget "testGitBranchWithXcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +948,7 @@
 				4CC000FB1BD7E42900B09232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CC000FC1BD7E42900B09232 /* Build configuration list for PBXNativeTarget "testGitBranchWithXcodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +957,7 @@
 				4CC000FE1BD7E42900B09232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
